@@ -2,7 +2,7 @@
 
 This project includes all the matlab code and data files that are needed to reproduce the experiments in the paper:
 
-G. Papamakarios and I. Murray. _Distilling Intractable Generative Models_. NIPS workshop on Probabilistic Integration, 2015.
+> G. Papamakarios and I. Murray. _Distilling Intractable Generative Models_. NIPS workshop on Probabilistic Integration, 2015.
 [[pdf]](http://homepages.inf.ed.ac.uk/s1459647/papers/distilling_generative_models.pdf)
 
 ## How to get started
