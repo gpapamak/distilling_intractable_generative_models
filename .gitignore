@@ -1,0 +1,12 @@
+# specific files
+.DS_store
+
+# text editor's temporary files
+*~
+
+# data files
+*.mat
+
+# exclude the rbm and the binarized mnist
+!outdir/randomly_binarized_mnist.mat
+!outdir/rbm_CD25_500.mat
