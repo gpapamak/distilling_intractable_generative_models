@@ -12,35 +12,35 @@ G. Papamakarios and I. Murray. _Distilling Intractable Generative Models_. NIPS 
 
 ## What this folder contains
 
-#####```experiments```
+##### `experiments`
 The scripts that run experiments and show results. In particular:
 
-- ```nade_fit_to_rbm.m```
+- `nade_fit_to_rbm.m`
 Performs distillation, by training a NADE to mimic an RBM.
 
-- ```nade_fit_to_rbm_results.m```
+- `nade_fit_to_rbm_results.m`
 Having trained a NADE with the previous script, run this one to visualize how well the distillation worked.
 
-- ```nade_estimate_rbm_logZ.m```
+- `nade_estimate_rbm_logZ.m`
 Uses the NADE trained above to estimate the partition function of the RBM.
 
-- ```nade_print_features.m```
+- `nade_print_features.m`
 Visualizes the features learnt by the RBM and the mimicking NADE.
 
-- ```nade_print_mnist_samples.m```
+- `nade_print_mnist_samples.m`
 Shows some samples from the RBM and the NADE.
 
-#####```nade```
+##### `nade`
 The implementation of NADE. Includes code for training it and drawing samples from it.
 
-#####```rbm```
+##### `rbm`
 The implementation of the RBM. Includes code that samples from it with Gibbs sampling.
 
-#####```optimization```
+##### `optimization`
 It contains optimization routines, including _AdaDelta_ that is used in training NADE.
 
-#####```util```
+##### `util`
 Various utility functions.
 
-#####```outdir```
+##### `outdir`
 Folder where to save results, e.g. the trained NADEs. It already contains the binarized MNIST dataset and an RBM trained on it, taken from [here](http://www.utstat.toronto.edu/~rsalakhu/rbm_ais.html).
